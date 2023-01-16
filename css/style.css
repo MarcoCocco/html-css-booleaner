@@ -1,5 +1,9 @@
 body {
-    margin: 0px 400px 0px 400px;
+    margin: 0px;
+}
+
+main {
+    margin: 0px 200px 0px 200px;
 }
 
 a {
@@ -7,13 +11,14 @@ a {
     color: #0ba1e2;
 }
 
-p {
-    font-size: 22px;
+.title h1 {
+    font-size: 50px;
 }
 
 h3 {
     color: #7e7e7e;
 }
+
 
 header {
     margin-bottom: 45px;
@@ -33,11 +38,45 @@ header {
     margin-left: -15px;
 }
 
-.title {
-    font-size: 25px;
-}
-
 .yellow {
     background-color: yellow;
 }
 
+.row1 {
+    background-color: #20a9e5;
+    font-weight: bold;
+}
+
+.row2 {
+    background-color: #b1e5f2;
+}
+
+.row3 {
+    background-color: white;
+}
+
+.row-left {
+    display: inline-block;
+    width: 33%;
+}
+
+.row-center {
+    display: inline-block;
+    width: 33%;
+}
+
+.row-right {
+    display: inline-block;
+    width: 33%;
+}
+
+
+
+
+
+
+
+
+.tw {
+    color: white;
+}
